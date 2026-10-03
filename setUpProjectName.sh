@@ -6,5 +6,5 @@ echo "./setUpProjectName.sh <project-name>"
 exit 1
 fi
 echo "replacing \"react-template\" with \"$1\""
-grep -rl "react-template" . --exclude-dir=node_modules/ --exclude-dir=.git --exclude=setUpProjectName.sh \
+grep -rl "react-template" . --exclude-dir=node_modules/ --exclude-dir=.git --exclude=setUpProjectName.sh --exclude=README.md \
 | xargs sed -i "s/react-template/$1/g"
