@@ -7,7 +7,8 @@ import {
 import App from './app';
 
 const user = { name: 'alpha', email: 'alphabravo@gmail.com' };
-
+// before each assigns fetch a new fresh mock function before each test and after each clears it.
+// this is important because without this mock function becomes undefined for vitest
 describe('Asynchronous component', () => {
   beforeEach(() => {
     // window.fetch is now a vitest mock function we can do with as we please
