@@ -31,3 +31,22 @@ After cloning the repository run `npm install` & then run:
 `./setUpProjectName.sh <your-project-name>`.
 This will automatically replace the name of the current project `react-template` to whatever project name you provide.
 Remember to change the `<title></title>` in **index.html** yourself as it needs to be human readable.
+
+#### Instructions
+
+The tutorial material is inside src as
+
+- src/firstTest
+- src/testingMultipleElements
+- asynchronousTests
+
+**IMPORTANT!** We assume you already know basic testing in javascript. We suggest you to use jest for simple javascript. But because I prefer using vite as a build tool for react? It was an obvious choice to switch from jest to vitest. Everything you have learnt in jest will mostly migrate to vitest. Vitest in my opinion has an easier syntax.
+
+#### Credits
+
+Everything discussed and implemented in this course ? follows this awesome react testing tutorial by [academind](https://academind.com/articles/testing-react-apps) be sure to visit the tutorial for theoretical understanding.
+
+[react-testing-library](https://testing-library.com/docs/) docs, ofc have everything explained in great detail
+[cheetsheet](https://testing-library.com/docs/dom-testing-library/cheatsheet/), I personally have this bookmarked
+[mdn-wai-roles](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Reference/Roles) I will later explain you why you need to read this.
+[vitest-official-docs] (https://vitest.dev/guide/)
