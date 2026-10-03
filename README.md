@@ -1,3 +1,9 @@
+# Vitesting React
+
+Vitest is a testing framework which is preferred by vite. Vite is a build tool for react.
+This project uses the reactViteTemplate as template
+you can find it [here](https://github.com/Z-K11/reactTemplateVite)
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
